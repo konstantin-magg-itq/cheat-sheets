@@ -14,7 +14,7 @@ az account set --subscription "My Demos"
 [MS docs | az acr login with --expose-token](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication?tabs=azure-cli#az-acr-login-with---expose-token)
 
 ```sh
-az acr login --name <acrName> --expose-token
+az acr login --expose-token --name <acrName>
 ```
 
 ## Docker login
